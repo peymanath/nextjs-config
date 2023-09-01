@@ -1,0 +1,66 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "rules": {
+        "react-hooks/exhaustive-deps": "off"
+      }
+    }
+  ],
+  "plugins": ["unused-imports", "@typescript-eslint", "prettier", "react-hooks"],
+  "rules": {
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "none",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/array-type": "error",
+    "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/ban-ts-comment": "error",
+    "@typescript-eslint/ban-tslint-comment": "error",
+    "@typescript-eslint/ban-types": "error",
+    "@typescript-eslint/consistent-indexed-object-style": ["error", "record"],
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/no-duplicate-enum-values": "error",
+    "@typescript-eslint/no-duplicate-type-constituents": "error",
+    "@typescript-eslint/no-empty-interface": "error",
+    "no-empty-function": "error",
+    "@typescript-eslint/no-empty-function": "error",
+    "@typescript-eslint/no-var-requires": "error",
+    "@typescript-eslint/no-useless-empty-export": "error",
+    "@typescript-eslint/no-unsafe-return": "error",
+    "@typescript-eslint/no-unsafe-enum-comparison": "error",
+    "no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 100,
+        "jsxSingleQuote": true,
+        "bracketSameLine": true,
+        "arrowParens": "avoid",
+        "singleAttributePerLine": true
+      }
+    ],
+    "@typescript-eslint/consistent-type-exports": "warn",
+    "@typescript-eslint/consistent-type-imports": "error",
+    "@typescript-eslint/member-ordering": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/explicit-function-return-type": "warn"
+  }
+}
