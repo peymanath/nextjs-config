@@ -1,13 +1,4 @@
-# Ignore everything!
-# - *
-# de-ignores: add here what you want to be committed
-# !*.*js*
-# !*.ts*
-
-# !**/src
-# !**/src/**
-
-# re-ignores: add here what you want to be ignored again
+# ignores: add here what you want to be ignored again
 *.md
 *.txt
 *.yml
