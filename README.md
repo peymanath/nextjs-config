@@ -1,5 +1,11 @@
 # The best structure folder [@nextjs](https://github.com/vercel/next.js) 13 (Directory App)
 
+In this repository, I plan to build a standard structure for some front-end development communities with the help of contributors.
+
+Whenever you need to create a new project, you can easily use the data of this repository.
+
+This structure is for all team projects, small, big, etc
+
 ### EsLint Config Help
 
 Because comments cannot be placed in the [*`.eslintrc`*](https://github.com/peymanath/nextjs-config/blob/main/.eslintrc) file, we will talk more about the rules here :)
