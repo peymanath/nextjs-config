@@ -1,10 +1,12 @@
 # The best structure folder [@nextjs](https://github.com/vercel/next.js) 13 (Directory App)
 
-In this repository, I plan to build a standard structure for some front-end development communities with the help of contributors.
+In this repository, I plan to build a standard structure for some front-end development (NextJs) communities with the help of contributors.
 
 Whenever you need to create a new project, you can easily use the data of this repository.
 
 This structure is for all team projects, small, big, etc
+
+---
 
 ### EsLint Config Help
 
