@@ -1,0 +1,38 @@
+{
+  "name": "next-js-config",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "formatter": "npx prettier --write .",
+    "formatter:check": "npx prettier --check .",
+    "formatter:watch": "onchange \"src/**/*.{js,jsx,ts,tsx,scss,sass,css}\" -- prettier --write --ignore-unknown {{changed}}"
+  },
+  "dependencies": {
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.48.0",
+    "postcss": "8.4.29",
+    "tailwindcss": "3.3.3",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint-config-next": "13.4.19",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.3",
+    "onchange": "^7.1.0",
+    "prettier": "^3.0.3"
+  }
+}
