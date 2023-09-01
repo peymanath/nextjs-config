@@ -6,6 +6,8 @@ Whenever you need to create a new project, you can easily use the data of this r
 
 This structure is for all team projects, small, big, etc
 
+Regardless of the goals of the project, we create a comprehensive and complete structure with typescript that you can customize or delete some parts based on your project.
+
 ---
 
 ### EsLint Config Help
