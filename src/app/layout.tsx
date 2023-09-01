@@ -1,7 +1,7 @@
 import React from 'react';
 import './globals.css';
 import type { Metadata } from 'next';
-import type { RootLayout } from '@/types/app';
+import type AppType from '@/types/app';
 
 export const metadata: Metadata = {
   title: 'Next Js 13 - Peyman Naderi',
@@ -13,7 +13,7 @@ const htmlAttribute: React.HtmlHTMLAttributes<HTMLHtmlElement> = {
   lang: 'en-US',
 };
 
-export default function RootLayout({ children }: RootLayout): React.ReactElement {
+export default function RootLayout({ children }: AppType.RootLayout): React.ReactElement {
   return (
     <html {...htmlAttribute}>
       <body>{children}</body>

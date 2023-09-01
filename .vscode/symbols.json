@@ -3,8 +3,8 @@
   "files": {
     "tailwind.config.ts": "2023-09-01T13:54:37.763Z",
     "src\\types\\components\\index.d.ts": "2023-09-01T13:54:37.756Z",
-    "src\\types\\app\\root.d.ts": "2023-09-01T13:54:37.747Z",
-    "src\\types\\app\\index.d.ts": "2023-09-01T13:54:37.741Z",
+    "src\\types\\app\\root.d.ts": "2023-09-01T13:59:14.641Z",
+    "src\\types\\app\\index.d.ts": "2023-09-01T13:59:57.332Z",
     "src\\types\\app\\account.d.ts": "2023-09-01T13:29:07.489Z",
     "next-env.d.ts": "2023-09-01T11:56:22.127Z"
   }

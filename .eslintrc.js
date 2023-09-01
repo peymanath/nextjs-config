@@ -1,5 +1,4 @@
-import prettierConfig from './prettier.config';
-const config = {
+module.exports = {
   extends: ['next/core-web-vitals', 'prettier'],
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -46,7 +45,20 @@ const config = {
     '@typescript-eslint/no-unsafe-enum-comparison': 'error', // ? https://typescript-eslint.io/rules/no-unsafe-enum-comparison
     'no-unused-vars': 'error', // ?https://typescript-eslint.io/rules/no-unused-vars
     '@typescript-eslint/no-unused-vars': 'error', // ?https://typescript-eslint.io/rules/no-unused-vars
-    'prettier/prettier': ['error', prettierConfig],
+    'prettier/prettier': [
+      'error',
+      {
+        trailingComma: 'es5',
+        tabWidth: 2,
+        semi: true,
+        singleQuote: true,
+        printWidth: 100,
+        jsxSingleQuote: true,
+        bracketSameLine: true,
+        arrowParens: 'avoid',
+        singleAttributePerLine: true,
+      },
+    ],
 
     // ? Custom Rule Warning
     '@typescript-eslint/consistent-type-exports': 'warn', // ? https://typescript-eslint.io/rules/consistent-type-exports
@@ -56,5 +68,3 @@ const config = {
     '@typescript-eslint/explicit-function-return-type': 'warn', // ? https://typescript-eslint.io/rules/explicit-function-return-type
   },
 };
-
-module.exports = config;

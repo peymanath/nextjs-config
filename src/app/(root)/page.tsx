@@ -1,4 +1,4 @@
-import type React from 'react';
+import React from 'react';
 
 const Home = (): React.ReactElement => {
   return (
